@@ -2,6 +2,13 @@
 
 A sample Typescript app that ingests and returns smoothie-related data.
 
+## Framework choice
+I chose to use Nest.js for this app. 
+It simplifies the creation of controllers, data sources and configuration of the app, 
+has built-in support for some ORMs, and adds a simple DI layer to allow for better separation of concerns
+across app components. It also comes with support for common testing frameworks, which
+I'll take advantage of I get some more time to put into this.
+
 ## Deployment information
 
 The app is dockerized and hosted on a single EC2 t2.micro instance. 
